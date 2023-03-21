@@ -8,6 +8,30 @@ body{
   background-position: center;
   background-size: cover;
 }
+.german1{
+  position: absolute;
+  top: 630px;
+  left: 279px;
+  background: url(https://icons.iconarchive.com/icons/wikipedia/flags/1024/DE-Germany-Flag-icon.png);
+}
+.german2{
+  position: absolute;
+  top: 653px;
+  left: 585px;
+  background: url(https://icons.iconarchive.com/icons/wikipedia/flags/1024/DE-Germany-Flag-icon.png);
+}
+.english1{
+  position: absolute;
+  top: 651px;
+  left: 1387px;
+  background: url(https://icons.iconarchive.com/icons/wikipedia/flags/1024/DE-Germany-Flag-icon.png);
+}
+.english2{
+  position: absolute;
+  top: 628px;
+  left: 1707px;
+  background: url(https://icons.iconarchive.com/icons/wikipedia/flags/1024/DE-Germany-Flag-icon.png);
+}
 .text {
   position: absolute;
   left: 34%;
@@ -144,8 +168,6 @@ body{
       opacity: 0;
   }
 }
-
-
 
 .middle{
   position: absolute;
