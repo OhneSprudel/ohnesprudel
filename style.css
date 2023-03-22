@@ -208,6 +208,7 @@ body{
   font-family: "impact";
   text-decoration: none;
   margin: 30px 0;
+  border-radius: 4px;
   border: 2px solid #1e90ff;
   padding: 200px 90px;
   padding: absolute;
@@ -315,6 +316,7 @@ body{
   overflow: hidden;
   transition: 1s all ease;
   transition: transform .2s;
+  border-radius: 4px;
 }
 .dbtn::before{
   content: "";
