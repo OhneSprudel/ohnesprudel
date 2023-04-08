@@ -1,0 +1,488 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.postimg.cc/7LM8BxJv/Banner.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-size: 200%;
+}
+.german1{
+  position: absolute;
+  top: 630px;
+  left: 279px;
+  background: url(https://icons.iconarchive.com/icons/wikipedia/flags/1024/DE-Germany-Flag-icon.png);
+}
+.german2{
+  position: absolute;
+  top: 653px;
+  left: 585px;
+  background: url(https://icons.iconarchive.com/icons/wikipedia/flags/1024/DE-Germany-Flag-icon.png);
+}
+.english1{
+  position: absolute;
+  top: 651px;
+  left: 1387px;
+  background: url(https://icons.iconarchive.com/icons/wikipedia/flags/1024/DE-Germany-Flag-icon.png);
+}
+.english2{
+  position: absolute;
+  top: 628px;
+  left: 1707px;
+  background: url(https://icons.iconarchive.com/icons/wikipedia/flags/1024/DE-Germany-Flag-icon.png);
+}
+.text {
+  position: absolute;
+  left: 34%;
+  top: 6%;
+  color: white;
+  font-size: 34px;
+  font-family: "impact";
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.wrapper{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.box div{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 6px solid rgba(255, 255, 255, 0.8);
+}
+.box div:nth-child(1){
+  top: 12%;
+  left: 42%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(2){
+  top: 70%;
+  left: 50%;
+  animation: animate 7s linear infinite;
+}
+.box div:nth-child(3){
+  top: 17%;
+  left: 6%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(4){
+  top: 20%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(5){
+  top: 67%;
+  left: 10%;
+  animation: animate 6s linear infinite;
+}
+.box div:nth-child(6){
+  top: 80%;
+  left: 70%;
+  animation: animate 12s linear infinite;
+}
+.box div:nth-child(7){
+  top: 60%;
+  left: 80%;
+  animation: animate 15s linear infinite;
+}
+.box div:nth-child(8){
+  top: 32%;
+  left: 25%;
+  animation: animate 16s linear infinite;
+}
+.box div:nth-child(9){
+  top: 90%;
+  left: 25%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(10){
+  top: 20%;
+  left: 85%;
+  animation: animate 5s linear infinite;
+}
+.box div:nth-child(11){
+  top: 54%;
+  left: 32%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(12){
+  top: 78%;
+  left: 10%;
+  animation: animate 7s linear infinite;
+}
+.box div:nth-child(13){
+  top: 14%;
+  left: 76%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(14){
+  top: 70%;
+  left: 30%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(15){
+  top: 17%;
+  left: 15%;
+  animation: animate 6s linear infinite;
+}
+.box div:nth-child(16){
+  top: 80%;
+  left: 70%;
+  animation: animate 12s linear infinite;
+}
+.box div:nth-child(17){
+  top: 90%;
+  left: 80%;
+  animation: animate 15s linear infinite;
+}
+.box div:nth-child(18){
+  top: 52%;
+  left: 76%;
+  animation: animate 16s linear infinite;
+}
+.box div:nth-child(19){
+  top: 70%;
+  left: 75%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(20){
+  top: 70%;
+  left: 45%;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+      transform: scale(0) translateY(0px) rotate(0);
+      opacity: 1;
+  }
+  100%{
+      transform: scale(1.3) translateY(-900px) rotate(360deg);
+      opacity: 0;
+  }
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 250px;
+  transform: translate(-50%,-50%);
+}
+.middle2{
+  position: absolute;
+  top: 56%;
+  left: 400px;
+  transform: translate(-50%,-50%);
+}
+.middle3{
+  position: absolute;
+  top: 56%;
+  left: 1200px;
+  transform: translate(-50%,-50%);
+}
+.middle4{
+  position: absolute;
+  top: 50%;
+  left: 1520px;
+  transform: translate(-50%,-50%);
+}
+.middle5{
+  position: absolute;
+  top: 102%;
+  left: 800px;
+  transform: translate(-50%,-50%);
+}
+.middle6{
+  position: absolute;
+  top: 15%;
+  left: 673px;
+  transform: translate(-50%,-50%);
+}
+
+
+.btn{
+  position: relative;
+  display: block;
+  color: #333333;
+  font-size: 14px;
+  font-family: "impact";
+  text-decoration: none;
+  margin: 0px 0;
+  border-radius: 4px;
+  border: 2px solid #1e90ff;
+  padding: 200px 90px;
+  padding: absolute;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  transition: transform .2s
+}
+.mbtn{
+  position: absolute;
+  display: block;
+  color: #333333;
+  font-size: 14px;
+  font-family: "impact";
+  text-decoration: none;
+  margin: 0px 0;
+  border-radius: 130px;
+  border: 2px solid  #ff6666;
+  padding: 125px 125px;
+  padding: absolute;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  transition: transform .3s
+}
+.mbtn::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.4s ease;
+  border: 45px solid white;
+}
+.text1{
+  position: absolute;
+  transform: rotate(-45deg);
+  display: block;
+  top: 43%;
+  left: 52px;
+  color: #333333;
+  text-shadow: 0 0 2px #fff;
+  font-size: 14px;
+  font-family: "impact";
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  pointer-events: none;
+}
+.text2{
+  position: absolute;
+  transform: rotate(-45deg);
+  display: block;
+  top: 49%;
+  left: 365px;
+  color: #333333;
+  text-shadow: 0 0 2px #fff;
+  font-size: 14px;
+  font-family: "impact";
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  pointer-events: none;
+}
+.text3{
+  position: absolute;
+  transform: rotate(-45deg);
+  display: block;
+  top: 49%;
+  left: 1165px;
+  color: #333333;
+  text-shadow: 0 0 2px #fff;
+  font-size: 14px;
+  font-family: "impact";
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  pointer-events: none;
+}
+.text4{
+  position: absolute;
+  transform: rotate(-45deg);
+  display: block;
+  top: 43%;
+  left: 1474px;
+  color: #333333;
+  text-shadow: 0 0 2px #fff;
+  font-size: 14px;
+  font-family: "impact";
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  pointer-events: none;
+}
+.Icon1{
+  position: absolute;
+  display: block;
+  top: 400px;
+  left: 790px;
+  color: #333333;
+  font-size: 24px;
+  overflow: hidden;
+  pointer-events: none;
+
+  text-shadow: 0 0 2px #fff;
+  font-family: "impact";
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.text6{
+  position: absolute;
+  display: block;
+  top: 157px;
+  left: 772px;
+  color: #333333;
+  text-shadow: 0 0 2px #fff;
+  font-size: 14px;
+  font-family: "impact";
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  pointer-events: none;
+  transform: rotate(-45deg);
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+  border: 50px solid white;
+}
+.dbtn{
+  position: relative;
+  display: block;
+  color: #333333;
+  font-size: 14px;
+  font-family: "impact";
+  text-decoration: none;
+  margin: 0px 0;
+  border: 2px solid  #ff6666;
+  padding: 40px 120px;
+  padding: absolute;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  transition: transform .2s;
+  border-radius: 4px;
+}
+.dbtn::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.4s ease;
+  border: 18px solid white;
+}
+
+.btn1::before{
+  width: 300%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+  background: url(https://i.postimg.cc/RZXCwXRm/Bild2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.btn1:hover::before{
+  height: 85%;
+}
+.btn2::before{
+  width: 300%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+  background: url(https://i.postimg.cc/W1q8qRNb/German-Banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.btn2:hover::before{
+  height: 85%;
+}
+.btn3::before{
+  width: 300%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+  background: url(https://i.postimg.cc/0yBbFDW7/English.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.btn3:hover::before{
+  height: 85%;
+}
+.btn4::before{
+  width: 300%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+  background: url(https://i.postimg.cc/YCxkDcrr/Animation-Banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.btn4:hover::before{
+  height: 85%;
+}
+.btn5::before{
+  width: 110%;
+  height: 0%;
+  background: url(https://i.postimg.cc/02V4pjtC/Dono-banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.btn5:hover::before{
+  height: 68%;
+}
+.dbtn:hover {
+  transform: scale(1.1);
+  background-color: #1e90ff;
+  transition: 0.6s;
+}
+.mbtn:hover {
+  transform: scale(1.1);
+  background-color: #ffe91e;
+  transition: 0.6s;
+}
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #1e90ff;
+  transition: 0.6s;
+}
+.img {
+  position: absolute;
+  top: 115%;
+  left: -158px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.img2 {
+  position: absolute;
+  top: 300%;
+  left: -158px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.btn6::before {
+  background: url(https://i.postimg.cc/3NMHpVm6/Merch-Icon.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 150%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+.btn6:hover::before{
+  height: 70%;
+}
